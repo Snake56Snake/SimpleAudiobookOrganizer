@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 
 """
-organize_audiobook.py
+SimpleAudiobookOrganizer.py
 
 Organizes an audiobook folder by moving audio files from subdirectories
 into the root directory. Checks for filename collisions before moving
 files and provides options for handling desktop.ini files, other files,
 and empty subdirectories.
 
-e.g. python3 ~/SimpleAudiobookOrganizer.py .
 
+Usage:
+    python3 ~/SimpleAudiobookOrganizer.py .
 """
 
 import sys
